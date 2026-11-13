@@ -1,0 +1,12 @@
+split,strategy,question_id,rank,chunk_id,page,scope,reason
+dev,B,q04,2,9ae3e212-9195-511b-88e0-c183eb0f6488,02-git-basics/getting-a-repository,same_page,Ví dụ lệnh đặt tên thư mục mylibgit sau URL và giải thích rõ thư mục đích.
+dev,C,q04,2,9ae3e212-9195-511b-88e0-c183eb0f6488,02-git-basics/getting-a-repository,same_page,Ví dụ lệnh đặt tên thư mục mylibgit sau URL và giải thích rõ thư mục đích.
+dev,A,q07,1,06344955-6d42-55ef-91f9-88c4a38216a9,02-git-basics/tagging,same_page,"Chunk giữ đầy đủ lệnh --follow-tags và kết quả chỉ đẩy annotated tags, dù mất cụm dẫn đầu."
+dev,A,q10,2,2382b14c-bc23-5bf9-80bf-6947716d261b,03-git-branching/rebasing,same_page,Đoạn mô tả việc người khác đã dựa vào commit được đẩy và hệ quả phải merge lại khi rebase.
+dev,B,q10,1,3a06cc6b-52ab-538b-9b2f-3fe3a694f158,03-git-branching/rebasing,same_page,Phân biệt commit cục bộ và commit công khai mà người khác đã dựa vào; cảnh báo hệ quả của rebase.
+dev,C,q10,1,3a06cc6b-52ab-538b-9b2f-3fe3a694f158,03-git-branching/rebasing,same_page,Phân biệt commit cục bộ và commit công khai mà người khác đã dựa vào; cảnh báo hệ quả của rebase.
+test,A,q16,1,25fb6804-1d43-53aa-a899-6b5ce54f923c,07-git-tools/rewriting-history,other_page,Mục Rewriting History cảnh báo tránh amend commit đã push và nêu việc SHA-1 thay đổi.
+test,B,q16,1,0f60aa7d-717f-517d-b8cf-6764c3bd6753,07-git-tools/rewriting-history,other_page,Mục Rewriting History cảnh báo tránh amend commit đã push và nêu việc SHA-1 thay đổi.
+test,C,q16,1,0f60aa7d-717f-517d-b8cf-6764c3bd6753,07-git-tools/rewriting-history,other_page,Mục Rewriting History cảnh báo tránh amend commit đã push và nêu việc SHA-1 thay đổi.
+test,B,q19,1,7c1ed007-9ea0-5db7-bd5d-c6b0ac7d1620,08-customizing-git/attributes,same_page,Ví dụ test/ export-ignore giải thích chỗ đặt thuộc tính và việc loại thư mục khi chạy git archive.
+test,C,q19,1,7c1ed007-9ea0-5db7-bd5d-c6b0ac7d1620,08-customizing-git/attributes,same_page,Ví dụ test/ export-ignore giải thích chỗ đặt thuộc tính và việc loại thư mục khi chạy git archive.

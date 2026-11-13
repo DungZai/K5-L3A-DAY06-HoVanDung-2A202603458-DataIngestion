@@ -1,0 +1,7 @@
+strategy,split,questions,hit_at_1,evidence_hit_at_3
+A,dev,15,7,11
+B,dev,15,8,10
+C,dev,15,8,10
+A,test,5,3,4
+B,test,5,3,5
+C,test,5,3,5

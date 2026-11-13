@@ -1,0 +1,16 @@
+strategy,question_id,score,reason
+A,q16,2,"Hạng 2 đúng đoạn gold: chỉ amend commit còn cục bộ, chưa push. Hạng 1 trong Rewriting History cũng nêu quy tắc sau khi push và lý do đổi SHA-1."
+B,q16,2,Hạng 1 trong Rewriting History nêu trực tiếp tránh amend commit đã push và giải thích SHA-1 đổi. Đoạn đủ trả lời dù nằm ngoài mục gold Undoing Things.
+C,q16,2,Hạng 1 trong Rewriting History nêu trực tiếp tránh amend commit đã push và giải thích SHA-1 đổi. Đoạn đủ trả lời dù nằm ngoài mục gold Undoing Things.
+A,q17,2,Hạng 1 nêu tùy chọn --delete cho git push. Hạng 3 trong cùng mục cho ví dụ hoàn chỉnh với origin và serverfix.
+B,q17,2,Hạng 1 nêu trực tiếp tùy chọn --delete. Hạng 2 trong Branch Management cho cú pháp đầy đủ với origin và tên nhánh.
+C,q17,2,Hạng 1 nêu trực tiếp tùy chọn --delete. Hạng 2 trong Branch Management cho cú pháp đầy đủ với origin và tên nhánh.
+A,q18,2,"Hạng 1 gọi tên git rerere, giải nghĩa reuse recorded resolution và mô tả tự dùng lại cách xử lý khi gặp cùng xung đột."
+B,q18,2,Hạng 2 gọi tên và định nghĩa đầy đủ git rerere. Hạng 1 chỉ mô tả cách dùng git log để tìm ngữ cảnh xung đột.
+C,q18,2,Hạng 2 gọi tên và định nghĩa đầy đủ git rerere. Hạng 1 chỉ mô tả cách dùng git log để tìm ngữ cảnh xung đột.
+A,q19,2,Hạng 3 nêu thuộc tính export-ignore cho thư mục vẫn nằm trong dự án. Hai đoạn đầu mô tả git rm và có thể gây nhầm với bỏ theo dõi.
+B,q19,2,Hạng 1 trong Git Attributes dùng dòng test/ export-ignore và nêu kết quả khi chạy git archive. Ví dụ cùng trang đủ hướng dẫn dù thiếu nguyên câu gold.
+C,q19,2,Hạng 1 trong Git Attributes dùng dòng test/ export-ignore và nêu kết quả khi chạy git archive. Ví dụ cùng trang đủ hướng dẫn dù thiếu nguyên câu gold.
+A,q20,1,Hạng 3 ở mục Packfiles giải thích cách dùng delta nói chung. Top-3 thiếu bản nào được giữ nguyên và lý do ưu tiên tốc độ truy cập bản mới.
+B,q20,2,"Hạng 2 ở mục Packfiles nêu đủ phiên bản thứ hai lưu nguyên, bản gốc lưu delta và lý do ưu tiên truy cập nhanh phiên bản mới."
+C,q20,2,"Hạng 2 ở mục Packfiles nêu đủ phiên bản thứ hai lưu nguyên, bản gốc lưu delta và lý do ưu tiên truy cập nhanh phiên bản mới."

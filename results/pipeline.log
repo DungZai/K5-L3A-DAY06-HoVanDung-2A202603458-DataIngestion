@@ -1,0 +1,30 @@
+2026-11-13T20:51:10+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T20:51:11+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T20:53:35+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T20:53:52+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T20:56:18+07:00 INFO Index A: 1115 chunks, 128.361s, reload 1115
+2026-11-13T21:00:12+07:00 INFO Index B: 1405 chunks, 213.638s, reload 1405
+2026-11-13T21:00:14+07:00 INFO Selected B using dev only
+2026-11-13T21:00:14+07:00 INFO A dev: Hit@1 6/15, Evidence Hit@3 9/15
+2026-11-13T21:00:14+07:00 INFO B dev: Hit@1 7/15, Evidence Hit@3 10/15
+2026-11-13T21:00:14+07:00 INFO C dev: Hit@1 7/15, Evidence Hit@3 10/15
+2026-11-13T21:00:29+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T21:00:32+07:00 INFO A test: Hit@1 2/5, Evidence Hit@3 4/5
+2026-11-13T21:00:32+07:00 INFO B test: Hit@1 1/5, Evidence Hit@3 3/5
+2026-11-13T21:00:32+07:00 INFO C test: Hit@1 1/5, Evidence Hit@3 3/5
+2026-11-13T21:07:34+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T21:07:36+07:00 INFO A test: Hit@1 2/5, Evidence Hit@3 4/5
+2026-11-13T21:07:36+07:00 INFO B test: Hit@1 1/5, Evidence Hit@3 3/5
+2026-11-13T21:07:36+07:00 INFO C test: Hit@1 1/5, Evidence Hit@3 3/5
+2026-11-13T21:07:52+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T21:13:17+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T21:15:18+07:00 INFO Index A: 1115 chunks, 100.449s, reload 1115
+2026-11-13T21:18:23+07:00 INFO Index B: 1405 chunks, 170.388s, reload 1405
+2026-11-13T21:18:24+07:00 INFO Selected B using dev only
+2026-11-13T21:18:24+07:00 INFO A dev: Hit@1 6/15, Evidence Hit@3 9/15
+2026-11-13T21:18:24+07:00 INFO B dev: Hit@1 7/15, Evidence Hit@3 10/15
+2026-11-13T21:18:24+07:00 INFO C dev: Hit@1 7/15, Evidence Hit@3 10/15
+2026-11-13T21:18:24+07:00 INFO Verified 45 source units, 20 questions and 10 anchors
+2026-11-13T21:18:26+07:00 INFO A test: Hit@1 2/5, Evidence Hit@3 4/5
+2026-11-13T21:18:26+07:00 INFO B test: Hit@1 1/5, Evidence Hit@3 3/5
+2026-11-13T21:18:26+07:00 INFO C test: Hit@1 1/5, Evidence Hit@3 3/5

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p01",
+    "source_id": "pro-git-2e",
+    "page": "01-introduction/about-version-control",
+    "quote": "If that server goes down for an hour"
+  },
+  {
+    "id": "p02",
+    "source_id": "pro-git-2e",
+    "page": "01-introduction/what-is-git",
+    "quote": "To be efficient, if files have not changed"
+  },
+  {
+    "id": "p03",
+    "source_id": "pro-git-2e",
+    "page": "02-git-basics/getting-a-repository",
+    "quote": "you can specify the new directory name as an additional argument"
+  },
+  {
+    "id": "p04",
+    "source_id": "pro-git-2e",
+    "page": "02-git-basics/tagging",
+    "quote": "Annotated tags, however, are stored as full objects"
+  },
+  {
+    "id": "p05",
+    "source_id": "pro-git-2e",
+    "page": "03-git-branching/basic-branching-and-merging",
+    "quote": "when you try to merge one commit with a commit that can be reached"
+  },
+  {
+    "id": "p06",
+    "source_id": "pro-git-2e",
+    "page": "03-git-branching/nutshell",
+    "quote": "It keeps a special pointer called"
+  },
+  {
+    "id": "p07",
+    "source_id": "pro-git-2e",
+    "page": "03-git-branching/rebasing",
+    "quote": "Do not rebase commits that exist outside your repository"
+  },
+  {
+    "id": "p08",
+    "source_id": "pro-git-2e",
+    "page": "07-git-tools/stashing-cleaning",
+    "quote": "Another common thing you may want to do with stash"
+  },
+  {
+    "id": "p09",
+    "source_id": "pro-git-2e",
+    "page": "08-customizing-git/hooks",
+    "quote": "There are two groups of these hooks"
+  },
+  {
+    "id": "p10",
+    "source_id": "pro-git-2e",
+    "page": "10-git-internals/environment",
+    "quote": "the current working directory is regarded as the top level"
+  }
+]

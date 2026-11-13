@@ -1,0 +1,31 @@
+strategy,anchor_id,chunk_id,score,reason
+A,p01,0cf6312c-0831-5e1f-9c87-76b5cc698189,1,Giải thích được việc mất khả năng cộng tác khi máy chủ trung tâm ngừng hoạt động. Đoạn kết cắt giữa phần hậu quả mất lịch sử khi cơ sở dữ liệu hỏng.
+A,p02,c82442ad-2ddd-5e8a-8091-4e229c43c46d,2,Hai câu trọn ý nêu cách Git liên kết đến bản đã lưu khi tệp giữ nguyên và đặt cách làm trong mô hình snapshot.
+A,p03,61f54aa6-247e-59ed-a340-fe1fad74ed21,2,"Giữ câu hướng dẫn, lệnh git clone với tên thư mục đích và giải thích thư mục tạo ra."
+A,p04,b8ffb016-2a06-526a-a416-f6212c39d43b,1,Giữ cách lưu cùng các trường của tag có chú thích. Câu gợi ý chọn loại tag bị cắt giữa điều kiện áp dụng.
+A,p05,1b0f5f04-1ca1-5734-9891-eae5e54ee1d6,2,Câu diễn giải đủ điều kiện không có lịch sử phân kỳ và hệ quả dời con trỏ trong fast-forward.
+A,p06,5307bc1e-848b-5ad7-8dab-e46feb8aa187,1,Gọi tên HEAD và gợi đúng ngữ cảnh tạo nhánh. Câu mô tả HEAD trỏ tới nhánh hiện tại bị cắt.
+A,p07,19812f25-a46d-5bf8-8623-755ca7913ac5,2,"Giữ tiêu đề và nguyên câu khuyến cáo, gồm cả hai điều kiện về commit đã chia sẻ và công việc dựa trên commit."
+A,p08,4b402908-ecee-5c4c-bf98-c534e4dc8333,0,Vị trí bắt đầu nói về stash tệp untracked nhưng câu bị cắt ngay trước khi giải thích hành vi và tùy chọn.
+A,p09,e76a4eef-be18-51e0-b317-875f34b1d02e,2,"Đoạn giới thiệu trọn ý về hook phía máy khách và máy chủ, nêu ví dụ kích hoạt của mỗi nhóm."
+A,p10,5310ea65-0945-543a-a451-1b9e7f2d33cf,2,Giữ định nghĩa GIT_WORK_TREE và cả điều kiện thiếu ba thiết lập thay thế để suy ra thư mục làm việc hiện hành.
+B,p01,62e25dbd-d305-573f-baec-cd18b4a98835,2,"Giữ đủ chủ thể là máy chủ trung tâm, sự cố gián đoạn và hệ quả đối với cộng tác và lưu phiên bản."
+B,p02,17173920-c586-56bb-8ed5-0a6e5a64f27a,2,"Giới thiệu mô hình snapshot, nêu thao tác khi commit và giải thích việc dùng liên kết khi tệp giữ nguyên."
+B,p03,4e317ca5-c8f2-521d-9f9e-80d34db3d94c,1,"Nêu được cách truyền đối số tên thư mục, nhưng dừng ở dấu hai chấm trước ví dụ lệnh mà đoạn văn dẫn vào."
+B,p04,cd87d6ac-27ae-5aa0-a7fb-8af254dafa05,2,"Nêu đủ tag có chú thích là đối tượng Git, dữ liệu nó chứa và trường hợp tag nhẹ phù hợp."
+B,p05,2cd2efd4-8f47-51fd-bdd2-9859dd861f0c,2,Giữ trọn ví dụ hotfix cùng phần tổng quát hóa về lịch sử không phân kỳ và dời con trỏ.
+B,p06,eafb2d5d-8509-5345-acf2-58d34499afae,2,Giữ trọn phần HEAD trỏ tới nhánh hiện tại và giải thích lệnh git branch chỉ tạo nhánh.
+B,p07,fe5fc47b-170f-56bc-8580-ebbb992a7425,2,Giữ tiêu đề và đủ ngữ cảnh cho khuyến cáo rebase khi commit đã được chia sẻ và được dùng làm cơ sở công việc.
+B,p08,50171d16-f452-5d03-bd24-29754221b053,2,Đủ hành vi mặc định của stash và hai phạm vi mở rộng với --include-untracked và --all.
+B,p09,82b75d91-a670-5fcd-9e42-d2b583a75cd4,2,Giữ tiêu đề và đoạn giới thiệu trọn ý về hai nhóm hook cùng điều kiện kích hoạt.
+B,p10,a5550ee6-7e28-5395-aa25-9eff70f30e21,2,Định nghĩa đầy đủ các biến môi trường quanh vị trí và giữ nguyên điều kiện suy ra thư mục gốc.
+C,p01,62e25dbd-d305-573f-baec-cd18b4a98835,2,"Giữ đủ chủ thể là máy chủ trung tâm, sự cố gián đoạn và hệ quả đối với cộng tác và lưu phiên bản."
+C,p02,17173920-c586-56bb-8ed5-0a6e5a64f27a,2,"Giới thiệu mô hình snapshot, nêu thao tác khi commit và giải thích việc dùng liên kết khi tệp giữ nguyên."
+C,p03,4e317ca5-c8f2-521d-9f9e-80d34db3d94c,1,"Nêu được cách truyền đối số tên thư mục, nhưng dừng ở dấu hai chấm trước ví dụ lệnh mà đoạn văn dẫn vào."
+C,p04,cd87d6ac-27ae-5aa0-a7fb-8af254dafa05,2,"Nêu đủ tag có chú thích là đối tượng Git, dữ liệu nó chứa và trường hợp tag nhẹ phù hợp."
+C,p05,2cd2efd4-8f47-51fd-bdd2-9859dd861f0c,2,Giữ trọn ví dụ hotfix cùng phần tổng quát hóa về lịch sử không phân kỳ và dời con trỏ.
+C,p06,eafb2d5d-8509-5345-acf2-58d34499afae,2,Giữ trọn phần HEAD trỏ tới nhánh hiện tại và giải thích lệnh git branch chỉ tạo nhánh.
+C,p07,fe5fc47b-170f-56bc-8580-ebbb992a7425,2,Giữ tiêu đề và đủ ngữ cảnh cho khuyến cáo rebase khi commit đã được chia sẻ và được dùng làm cơ sở công việc.
+C,p08,50171d16-f452-5d03-bd24-29754221b053,2,Đủ hành vi mặc định của stash và hai phạm vi mở rộng với --include-untracked và --all.
+C,p09,82b75d91-a670-5fcd-9e42-d2b583a75cd4,2,Giữ tiêu đề và đoạn giới thiệu trọn ý về hai nhóm hook cùng điều kiện kích hoạt.
+C,p10,a5550ee6-7e28-5395-aa25-9eff70f30e21,2,Định nghĩa đầy đủ các biến môi trường quanh vị trí và giữ nguyên điều kiện suy ra thư mục gốc.

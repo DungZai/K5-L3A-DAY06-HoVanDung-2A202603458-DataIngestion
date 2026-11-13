@@ -1,0 +1,13 @@
+{
+  "top_k": 3,
+  "selection": [
+    "maximize dev Evidence Hit@3",
+    "maximize dev Hit@1",
+    "if tied, prefer A, then B, then C"
+  ],
+  "strategies": {
+    "A": {"chunking": "fixed", "size": 500, "overlap": 60, "index": "A", "filter": false},
+    "B": {"chunking": "paragraph", "size": 500, "overlap": 0, "index": "B", "filter": false},
+    "C": {"chunking": "paragraph", "size": 500, "overlap": 0, "index": "B", "filter": true}
+  }
+}

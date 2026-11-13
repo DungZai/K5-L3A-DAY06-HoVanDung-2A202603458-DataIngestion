@@ -1,0 +1,9 @@
+Pro Git, Second Edition, by Scott Chacon and Ben Straub (Apress, 2014)
+https://git-scm.com/book/en/v2
+https://github.com/progit/progit2/tree/a013e3230a1207cfa5ae94d28ba7d2021063c337
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+The lab corpus selects and normalizes sections from this snapshot.
+The corpus and excerpts reproduced in the benchmark and results retain this license.

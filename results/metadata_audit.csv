@@ -1,0 +1,46 @@
+strategy,question_id,rank,chunk_id,source_ok,page_ok,section_ok,reason
+A,q16,1,25fb6804-1d43-53aa-a899-6b5ce54f923c,1,1,1,Mục Rewriting History của Git Tools chứa khuyến cáo amend sau khi push. Khớp nguồn chuẩn hóa ở ký tự 2200–2700.
+A,q16,2,b7be2718-2a48-5031-9f18-db253f1685ff,1,1,1,Mục Undoing Things của Git Basics chứa quy tắc chỉ amend commit cục bộ. Khớp nguồn chuẩn hóa ở ký tự 1760–2260.
+A,q16,3,f4012fae-322f-5c68-b6e7-b766541ce7b7,1,1,1,Đoạn liền trước trong Undoing Things giải thích amend thay thế commit. Khớp nguồn chuẩn hóa ở ký tự 1320–1820.
+B,q16,1,0f60aa7d-717f-517d-b8cf-6764c3bd6753,1,1,1,Mục Rewriting History chứa cả cách bổ sung thay đổi và khuyến cáo sau khi push. Khớp nguồn chuẩn hóa ở ký tự 2060–2538.
+B,q16,2,3d6f0530-6781-57e3-8251-119881a11fec,1,1,1,Mục Undoing Things chứa phần giới thiệu lợi ích amend và đầu khối NOTE. Khớp nguồn chuẩn hóa ở ký tự 1745–1991.
+B,q16,3,3f9019d3-7b6c-589e-9400-fa945d7c5116,1,1,1,Mục Undoing Things chứa đoạn giải thích commit cũ bị thay thế. Khớp nguồn chuẩn hóa ở ký tự 1398–1743.
+C,q16,1,0f60aa7d-717f-517d-b8cf-6764c3bd6753,1,1,1,Mục Rewriting History chứa cả cách bổ sung thay đổi và khuyến cáo sau khi push. Khớp nguồn chuẩn hóa ở ký tự 2060–2538.
+C,q16,2,3d6f0530-6781-57e3-8251-119881a11fec,1,1,1,Mục Undoing Things chứa phần giới thiệu lợi ích amend và đầu khối NOTE. Khớp nguồn chuẩn hóa ở ký tự 1745–1991.
+C,q16,3,3f9019d3-7b6c-589e-9400-fa945d7c5116,1,1,1,Mục Undoing Things chứa đoạn giải thích commit cũ bị thay thế. Khớp nguồn chuẩn hóa ở ký tự 1398–1743.
+A,q17,1,41ba53ba-0f52-51d5-88f5-186e9a9f79b3,1,1,1,"Heading Deleting Remote Branches thuộc mục Remote Branches, đúng phạm vi Git Branching. Khớp nguồn chuẩn hóa ở ký tự 11880–12380."
+A,q17,2,4c545597-858b-519b-877b-adaf2b28976e,1,1,1,Ví dụ xóa master trên origin thuộc mục Branch Management của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 5720–5847.
+A,q17,3,5a9dadd0-0196-5e74-9cdc-7168bb64970a,1,1,1,Lệnh xóa serverfix và giải thích con trỏ khớp mục Remote Branches của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 12320–12708.
+B,q17,1,4bec1efd-20e0-5fea-ba77-bb446c28c86b,1,1,1,Đoạn mở đầu Deleting Remote Branches khớp mục Remote Branches của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 11981–12375.
+B,q17,2,367acac6-ee0e-5d1b-b1b5-906793e3866b,1,1,1,Ví dụ xóa master trên origin nằm cuối mục Branch Management của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 5662–5847.
+B,q17,3,17c8a287-4fa2-51e5-9cd7-20c4681aff2f,1,1,1,Ví dụ git branch -d là từ mục Rebasing của Git Branching và mô tả nhánh cục bộ. Khớp nguồn chuẩn hóa ở ký tự 4705–5055.
+C,q17,1,4bec1efd-20e0-5fea-ba77-bb446c28c86b,1,1,1,Đoạn mở đầu Deleting Remote Branches khớp mục Remote Branches của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 11981–12375.
+C,q17,2,367acac6-ee0e-5d1b-b1b5-906793e3866b,1,1,1,Ví dụ xóa master trên origin nằm cuối mục Branch Management của Git Branching. Khớp nguồn chuẩn hóa ở ký tự 5662–5847.
+C,q17,3,17c8a287-4fa2-51e5-9cd7-20c4681aff2f,1,1,1,Ví dụ git branch -d là từ mục Rebasing của Git Branching và mô tả nhánh cục bộ. Khớp nguồn chuẩn hóa ở ký tự 4705–5055.
+A,q18,1,871347e5-c67d-5ba8-8723-7ac0dc6b3208,1,1,1,Đoạn định nghĩa reuse recorded resolution nằm đầu mục Rerere. Khớp nguồn chuẩn hóa ở ký tự 0–500.
+A,q18,2,d8940a0a-575a-5c3c-8be4-219a38035bd5,1,1,1,Mục Basic Branching and Merging chứa đoạn đóng merge tool và kiểm tra trạng thái. Khớp nguồn chuẩn hóa ở ký tự 9680–10180.
+A,q18,3,d9fb266f-9e43-54c7-b76c-9026970e4757,1,1,1,Mục Advanced Merging chứa đoạn chuyển từ chọn phía khi merge sang Merge Log. Khớp nguồn chuẩn hóa ở ký tự 13200–13700.
+B,q18,1,9ec7a88a-d1cc-538e-bae5-326fb690e974,1,1,1,Heading Merge Log và ví dụ triple-dot thuộc mục Advanced Merging. Khớp nguồn chuẩn hóa ở ký tự 13502–13999.
+B,q18,2,c6bf933b-6f01-5559-8245-2f26912d918e,1,1,1,Định nghĩa git rerere khớp với đoạn mở đầu mục Rerere. Khớp nguồn chuẩn hóa ở ký tự 0–310.
+B,q18,3,35cfe0d0-28d3-57e6-a9da-f722e7d70011,1,1,1,Đoạn git checkout --conflict khớp mục Advanced Merging. Khớp nguồn chuẩn hóa ở ký tự 12073–12297.
+C,q18,1,9ec7a88a-d1cc-538e-bae5-326fb690e974,1,1,1,Heading Merge Log và ví dụ triple-dot thuộc mục Advanced Merging. Khớp nguồn chuẩn hóa ở ký tự 13502–13999.
+C,q18,2,c6bf933b-6f01-5559-8245-2f26912d918e,1,1,1,Định nghĩa git rerere khớp với đoạn mở đầu mục Rerere. Khớp nguồn chuẩn hóa ở ký tự 0–310.
+C,q18,3,35cfe0d0-28d3-57e6-a9da-f722e7d70011,1,1,1,Đoạn git checkout --conflict khớp mục Advanced Merging. Khớp nguồn chuẩn hóa ở ký tự 12073–12297.
+A,q19,1,68612d7b-e9f5-5bc4-8047-b3ff7f159c0e,1,1,1,Đoạn git rm -f và tác động tới tệp tracked thuộc mục Recording Changes. Khớp nguồn chuẩn hóa ở ký tự 21560–22060.
+A,q19,2,10301f94-03a2-5988-8989-eb3e4a7560cc,1,1,1,Ví dụ git rm --cached và đường dẫn README thuộc mục Recording Changes. Khớp nguồn chuẩn hóa ở ký tự 22000–22500.
+A,q19,3,c5f55daa-15d7-5fed-9eef-e035eb6fd161,1,1,1,Định nghĩa export-ignore nằm trong mục Git Attributes của Customizing Git. Khớp nguồn chuẩn hóa ở ký tự 12760–13260.
+B,q19,1,7c1ed007-9ea0-5db7-bd5d-c6b0ac7d1620,1,1,1,Ví dụ test/ export-ignore thuộc mục Git Attributes của Customizing Git. Khớp nguồn chuẩn hóa ở ký tự 13168–13525.
+B,q19,2,b8cd7373-d03b-5d5b-abeb-b45e356b5627,1,1,1,Đoạn giữ tệp trên đĩa với git rm --cached thuộc mục Recording Changes. Khớp nguồn chuẩn hóa ở ký tự 21935–22396.
+B,q19,3,b5bb394b-781a-52f4-b413-45687f71f301,1,1,1,Đoạn cảnh báo xóa tệp untracked và gợi ý stash --all thuộc mục Stashing and Cleaning. Khớp nguồn chuẩn hóa ở ký tự 8642–8949.
+C,q19,1,7c1ed007-9ea0-5db7-bd5d-c6b0ac7d1620,1,1,1,Ví dụ test/ export-ignore thuộc mục Git Attributes của Customizing Git. Khớp nguồn chuẩn hóa ở ký tự 13168–13525.
+C,q19,2,b8cd7373-d03b-5d5b-abeb-b45e356b5627,1,1,1,Đoạn giữ tệp trên đĩa với git rm --cached thuộc mục Recording Changes. Khớp nguồn chuẩn hóa ở ký tự 21935–22396.
+C,q19,3,b5bb394b-781a-52f4-b413-45687f71f301,1,1,1,Đoạn cảnh báo xóa tệp untracked và gợi ý stash --all thuộc mục Stashing and Cleaning. Khớp nguồn chuẩn hóa ở ký tự 8642–8949.
+A,q20,1,5dc987d5-2a65-5e7a-b177-d8c708438236,1,1,1,Mô tả packfile và index nằm trong mục Packfiles của Git Internals. Khớp nguồn chuẩn hóa ở ký tự 4400–4900.
+A,q20,2,ebbca971-2fd3-5d7f-8d68-d910da7a1904,1,1,1,Ví dụ GET objects/info/packs và tải index thuộc mục Transfer Protocols. Khớp nguồn chuẩn hóa ở ký tự 3520–4020.
+A,q20,3,6d685da6-dea7-5988-845f-9e4cecf68cfa,1,1,1,Đoạn về tiết kiệm dung lượng bằng delta nằm trong mục Packfiles. Khớp nguồn chuẩn hóa ở ký tự 4841–5339.
+B,q20,1,943d3bd0-d10a-53c1-9ce0-fc5215f7b46f,1,1,1,Đoạn nói về dung lượng packfile và vai trò index khớp mục Packfiles. Khớp nguồn chuẩn hóa ở ký tự 4591–5070.
+B,q20,2,fb3060eb-4196-5f82-af11-979b134527a9,1,1,1,Đoạn mô tả phiên bản mới lưu nguyên và bản gốc lưu delta khớp mục Packfiles. Khớp nguồn chuẩn hóa ở ký tự 7121–7608.
+B,q20,3,8f273d23-32dc-5ed4-ab1d-8353753f42cb,1,1,1,Đoạn tải cả packfile qua HTTP khớp mục Transfer Protocols của Git Internals. Khớp nguồn chuẩn hóa ở ký tự 4017–4365.
+C,q20,1,943d3bd0-d10a-53c1-9ce0-fc5215f7b46f,1,1,1,Đoạn nói về dung lượng packfile và vai trò index khớp mục Packfiles. Khớp nguồn chuẩn hóa ở ký tự 4591–5070.
+C,q20,2,fb3060eb-4196-5f82-af11-979b134527a9,1,1,1,Đoạn mô tả phiên bản mới lưu nguyên và bản gốc lưu delta khớp mục Packfiles. Khớp nguồn chuẩn hóa ở ký tự 7121–7608.
+C,q20,3,8f273d23-32dc-5ed4-ab1d-8353753f42cb,1,1,1,Đoạn tải cả packfile qua HTTP khớp mục Transfer Protocols của Git Internals. Khớp nguồn chuẩn hóa ở ký tự 4017–4365.

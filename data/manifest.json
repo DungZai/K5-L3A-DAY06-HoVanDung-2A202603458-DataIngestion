@@ -1,0 +1,454 @@
+{
+  "corpus_path": "data/corpus.jsonl",
+  "total_units": 45,
+  "total_characters": 483296,
+  "unit_counting_rule": "One distinct upstream AsciiDoc section under book/<chapter>/sections is one traceable unit. Keep core Git chapters 01, 02, 03, 07, 08 and 10, and require at least 1500 normalized characters per section. Exclude front matter, appendices, summaries, other chapters, and images.",
+  "normalization": "UTF-8 and NFC; trim lines, collapse horizontal whitespace and repeated blank lines; preserve paragraph, heading and inline example boundaries; convert headings to Markdown; omit source directives, external includes, image references/captions, internal anchors and index terms. Redact email addresses and sample credentials from command examples. Inline AsciiDoc may remain.",
+  "rebuild": "python data/build_corpus.py",
+  "archive_url": "https://codeload.github.com/progit/progit2/zip/a013e3230a1207cfa5ae94d28ba7d2021063c337",
+  "sha256_definition": "SHA-256 of normalized text encoded in UTF-8, without a trailing LF.",
+  "metadata_fields": {
+    "document_id": "String, lab identifier of the upstream edition.",
+    "source": "String, pinned upstream URL for an individual section.",
+    "page": "String, stable chapter-slug/section-filename identifier.",
+    "title": "String, top-level heading in the upstream section file.",
+    "section": "String, upstream chapter directory used for metadata filtering."
+  },
+  "sources": [
+    {
+      "source_id": "pro-git-2e",
+      "title": "Pro Git, 2nd Edition",
+      "authors": [
+        "Scott Chacon",
+        "Ben Straub"
+      ],
+      "publisher": "Apress",
+      "publication_year": 2014,
+      "source_path_or_url": "https://git-scm.com/book/en/v2",
+      "license_or_permission": "CC BY-NC-SA 3.0 Unported",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "upstream_license_url": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/LICENSE.asc",
+      "accessed_at": "2026-11-13",
+      "snapshot": "a013e3230a1207cfa5ae94d28ba7d2021063c337",
+      "unit_count": 45,
+      "character_count": 483296,
+      "units": [
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/01-introduction/sections/about-version-control.asc",
+          "page": "01-introduction/about-version-control",
+          "title": "About Version Control",
+          "section": "01-introduction",
+          "source_path": "book/01-introduction/sections/about-version-control.asc",
+          "character_count": 4235,
+          "sha256": "c32860986af9f76c0a54cf351644d22943a40e92fddccff912969caa4285d634"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/01-introduction/sections/first-time-setup.asc",
+          "page": "01-introduction/first-time-setup",
+          "title": "First-Time Git Setup",
+          "section": "01-introduction",
+          "source_path": "book/01-introduction/sections/first-time-setup.asc",
+          "character_count": 6035,
+          "sha256": "70d8e174e4342d34a55d2ba05f667c7571e7be121f2413bbd659931940119543"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/01-introduction/sections/help.asc",
+          "page": "01-introduction/help",
+          "title": "Getting Help",
+          "section": "01-introduction",
+          "source_path": "book/01-introduction/sections/help.asc",
+          "character_count": 2035,
+          "sha256": "17ceddd4a62a4c36c76bfac46a8d2a15f3393fcda6382ba541ee282b1e4f2e68"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/01-introduction/sections/installing.asc",
+          "page": "01-introduction/installing",
+          "title": "Installing Git",
+          "section": "01-introduction",
+          "source_path": "book/01-introduction/sections/installing.asc",
+          "character_count": 5033,
+          "sha256": "f8957b830af5d9a7e5d3854b0ddd95b4c15051b3d3fd0140ef77d0892d6727a9"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/01-introduction/sections/what-is-git.asc",
+          "page": "01-introduction/what-is-git",
+          "title": "What is Git?",
+          "section": "01-introduction",
+          "source_path": "book/01-introduction/sections/what-is-git.asc",
+          "character_count": 7585,
+          "sha256": "950cc95f4e83d0c888a3d62f59af17e6aa43a62d76989ea78a79edd0c1e7ec91"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/aliases.asc",
+          "page": "02-git-basics/aliases",
+          "title": "Git Aliases",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/aliases.asc",
+          "character_count": 2167,
+          "sha256": "f19848c4f56f62abcbe9f53c6e43471d8edbeb4683f2dee559f1bd1f07aff4fe"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/getting-a-repository.asc",
+          "page": "02-git-basics/getting-a-repository",
+          "title": "Getting a Git Repository",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/getting-a-repository.asc",
+          "character_count": 3835,
+          "sha256": "15939124f43fb0baff0fd5e32ac4b023765a23df07e700003392c6804de9fcaa"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/recording-changes.asc",
+          "page": "02-git-basics/recording-changes",
+          "title": "Recording Changes to the Repository",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/recording-changes.asc",
+          "character_count": 24191,
+          "sha256": "551459025bd47bceafbb4ce458da09f4e37ffc5b1ae2e897cbb850a7f9b4f55c"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/remotes.asc",
+          "page": "02-git-basics/remotes",
+          "title": "Working with Remotes",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/remotes.asc",
+          "character_count": 10538,
+          "sha256": "8952cbd921885e07903974179ad83f0aa82202d5eec7f19f9c82df307cdae867"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/tagging.asc",
+          "page": "02-git-basics/tagging",
+          "title": "Tagging",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/tagging.asc",
+          "character_count": 8705,
+          "sha256": "be5c8bd5ffc0ab8f5c47a782ff2e128a14c7448c0b6c1aeb9d6f12c2fa402a93"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/undoing.asc",
+          "page": "02-git-basics/undoing",
+          "title": "Undoing Things",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/undoing.asc",
+          "character_count": 8863,
+          "sha256": "47defb4c70aa9955643ea38248cd2defe03328094508705e62c167eac4a138e1"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/02-git-basics/sections/viewing-history.asc",
+          "page": "02-git-basics/viewing-history",
+          "title": "Viewing the Commit History",
+          "section": "02-git-basics",
+          "source_path": "book/02-git-basics/sections/viewing-history.asc",
+          "character_count": 12536,
+          "sha256": "f4456f01bd09abbe3db6a1c1e4442e5a35c6c58265665374a2716713bab233f2"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/basic-branching-and-merging.asc",
+          "page": "03-git-branching/basic-branching-and-merging",
+          "title": "Basic Branching and Merging",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/basic-branching-and-merging.asc",
+          "character_count": 11147,
+          "sha256": "5d4b5b837ce72338fa21d66a5491011f3e47ff6095b256241e7d1374caa02612"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/branch-management.asc",
+          "page": "03-git-branching/branch-management",
+          "title": "Branch Management",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/branch-management.asc",
+          "character_count": 5847,
+          "sha256": "521e3f956cc817aec2ad4f61f52c32aa893f76d6e066419b8c85d5fb912ab7a4"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/nutshell.asc",
+          "page": "03-git-branching/nutshell",
+          "title": "Branches in a Nutshell",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/nutshell.asc",
+          "character_count": 8303,
+          "sha256": "6ac3bd5d537725e5346ffba18246b5d6768ffa5d65278ab300cf310d18a0b318"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/rebasing.asc",
+          "page": "03-git-branching/rebasing",
+          "title": "Rebasing",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/rebasing.asc",
+          "character_count": 11400,
+          "sha256": "4adb0d73a8a75d3fd3d5a6e85c1dd16a64801b7a4413d4d019d966623476cfcb"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/remote-branches.asc",
+          "page": "03-git-branching/remote-branches",
+          "title": "Remote Branches",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/remote-branches.asc",
+          "character_count": 12708,
+          "sha256": "8de937d1a77011f044951a42e59a00b8a1fe28ce455720ff88ad7212d2ab0c0a"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/03-git-branching/sections/workflows.asc",
+          "page": "03-git-branching/workflows",
+          "title": "Branching Workflows",
+          "section": "03-git-branching",
+          "source_path": "book/03-git-branching/sections/workflows.asc",
+          "character_count": 4345,
+          "sha256": "7acdea861ad877087ac3567a884a043c11d4947e2b96c38671392c74f0ac1bbc"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/advanced-merging.asc",
+          "page": "07-git-tools/advanced-merging",
+          "title": "Advanced Merging",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/advanced-merging.asc",
+          "character_count": 24500,
+          "sha256": "b82d2805fadeacaee2ca7cff458d9259151ea4782bbaf0643ecc8eb8194ae4a4"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/bundling.asc",
+          "page": "07-git-tools/bundling",
+          "title": "Bundling",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/bundling.asc",
+          "character_count": 6978,
+          "sha256": "4f5cda02e569a853ba42735872866daa1c5cd03373e2b24688530ff81848f3fe"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/credentials.asc",
+          "page": "07-git-tools/credentials",
+          "title": "Credential Storage",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/credentials.asc",
+          "character_count": 9812,
+          "sha256": "a70bfef9a4bcf1465b7360ce41e30cea49da6dc68d1b2ab0ab5978d1e3bd72e8"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/debugging.asc",
+          "page": "07-git-tools/debugging",
+          "title": "Debugging with Git",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/debugging.asc",
+          "character_count": 8362,
+          "sha256": "ed1e787a61ef3487241f8f69f250cb4e5cb374ffdd2cf44aa452ff835a0f0575"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/interactive-staging.asc",
+          "page": "07-git-tools/interactive-staging",
+          "title": "Interactive Staging",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/interactive-staging.asc",
+          "character_count": 6956,
+          "sha256": "00eda7596b4f4f1d490cfe932f8f8f906a74a9711a8cc75ea9866fb6fda5fae2"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/replace.asc",
+          "page": "07-git-tools/replace",
+          "title": "Replace",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/replace.asc",
+          "character_count": 8393,
+          "sha256": "664b05adb1b092f4a590a93ef60dfccb51fa4ce8cc9618768e54f91b1c315a6f"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/rerere.asc",
+          "page": "07-git-tools/rerere",
+          "title": "Rerere",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/rerere.asc",
+          "character_count": 6768,
+          "sha256": "bbff198dfc1b9011ae21d5e3f04bdfff70182f2a217ca2b5feeb88fc85bf7d3f"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/reset.asc",
+          "page": "07-git-tools/reset",
+          "title": "Reset Demystified",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/reset.asc",
+          "character_count": 15217,
+          "sha256": "8dda99385b8fca915685b2a2a1fad2d2080df8ec29d8a8e49a78a2502e563479"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/revision-selection.asc",
+          "page": "07-git-tools/revision-selection",
+          "title": "Revision Selection",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/revision-selection.asc",
+          "character_count": 15985,
+          "sha256": "e5e5a83fd343bc5bfd46d9239e685848c9abfc07fff985484e6343f351eecf92"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/rewriting-history.asc",
+          "page": "07-git-tools/rewriting-history",
+          "title": "Rewriting History",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/rewriting-history.asc",
+          "character_count": 18023,
+          "sha256": "36d3bd131b043f0d518e7faedb3d5b66f24822034e9a6e016f4233e6b37e4f47"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/searching.asc",
+          "page": "07-git-tools/searching",
+          "title": "Searching",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/searching.asc",
+          "character_count": 7014,
+          "sha256": "57b59519dcec2374abfce7a278a86c136ef075a67af46f57fa62a93e847f904e"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/signing.asc",
+          "page": "07-git-tools/signing",
+          "title": "Signing Your Work",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/signing.asc",
+          "character_count": 6645,
+          "sha256": "39b6f503d1dd23bbd44606b9213ce26482d779aa6d6a068e6c7d5dfaf57a23ff"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/stashing-cleaning.asc",
+          "page": "07-git-tools/stashing-cleaning",
+          "title": "Stashing and Cleaning",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/stashing-cleaning.asc",
+          "character_count": 11197,
+          "sha256": "1ad3b04529ac418aaa33b809e29c8ae187c6f77ed60be6f657e0a6935e84850a"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/submodules.asc",
+          "page": "07-git-tools/submodules",
+          "title": "Submodules",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/submodules.asc",
+          "character_count": 40581,
+          "sha256": "e79a6b5ab780aa0c5290b4dcdccf15a176e6fa96abe3b16d131966e87bb96a48"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/07-git-tools/sections/subtree-merges.asc",
+          "page": "07-git-tools/subtree-merges",
+          "title": "Subtree Merging",
+          "section": "07-git-tools",
+          "source_path": "book/07-git-tools/sections/subtree-merges.asc",
+          "character_count": 4786,
+          "sha256": "a3043d134a65937ad8ade4ebd158b5042eeb0104c08637e0dea72bb381879368"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/08-customizing-git/sections/attributes.asc",
+          "page": "08-customizing-git/attributes",
+          "title": "Git Attributes",
+          "section": "08-customizing-git",
+          "source_path": "book/08-customizing-git/sections/attributes.asc",
+          "character_count": 16384,
+          "sha256": "12aca2140b61a3520d0d1031c2a6dbf23e9f49c0d2fe5a0b24beadc3199b2d3a"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/08-customizing-git/sections/config.asc",
+          "page": "08-customizing-git/config",
+          "title": "Git Configuration",
+          "section": "08-customizing-git",
+          "source_path": "book/08-customizing-git/sections/config.asc",
+          "character_count": 20320,
+          "sha256": "e1acbd1cc6e70ee54cda46106ea3ddd7fa3d68b5bd6f6293aaaaa3cda67fd2fb"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/08-customizing-git/sections/hooks.asc",
+          "page": "08-customizing-git/hooks",
+          "title": "Git Hooks",
+          "section": "08-customizing-git",
+          "source_path": "book/08-customizing-git/sections/hooks.asc",
+          "character_count": 9328,
+          "sha256": "75f4426ae23b53e93d97145d333b6b2ac932ae1ceb27076cee16aa0ad6d8b94c"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/08-customizing-git/sections/policy.asc",
+          "page": "08-customizing-git/policy",
+          "title": "An Example Git-Enforced Policy",
+          "section": "08-customizing-git",
+          "source_path": "book/08-customizing-git/sections/policy.asc",
+          "character_count": 17316,
+          "sha256": "131b3a143b0d2874e510f62f5ba1254687cf2f14ab95ca7a23c9be8ef8bb133b"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/environment.asc",
+          "page": "10-git-internals/environment",
+          "title": "Environment Variables",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/environment.asc",
+          "character_count": 13271,
+          "sha256": "460b879372fdfc7b57a33b11e37b3223ba1ac7587833a47c635eab27d28b34d5"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/maintenance.asc",
+          "page": "10-git-internals/maintenance",
+          "title": "Maintenance and Data Recovery",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/maintenance.asc",
+          "character_count": 14325,
+          "sha256": "7d919355260386a60869cf3161689178f4749fb70bc90237daaa768e4d053751"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/objects.asc",
+          "page": "10-git-internals/objects",
+          "title": "Git Objects",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/objects.asc",
+          "character_count": 17346,
+          "sha256": "af38eb69815809258c2e343a6e230236d895f6fb9199017b98c9631f78fcb0c3"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/packfiles.asc",
+          "page": "10-git-internals/packfiles",
+          "title": "Packfiles",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/packfiles.asc",
+          "character_count": 7608,
+          "sha256": "4d568f774f71cfb0e51b649403bbf4dac5e95277924157426782716bc4b08e90"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/plumbing-porcelain.asc",
+          "page": "10-git-internals/plumbing-porcelain",
+          "title": "Plumbing and Porcelain",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/plumbing-porcelain.asc",
+          "character_count": 2640,
+          "sha256": "19803c6b7231e961f781cf6fbaff9b86985ce0acbf820999903bad29c08c7728"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/refs.asc",
+          "page": "10-git-internals/refs",
+          "title": "Git References",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/refs.asc",
+          "character_count": 7096,
+          "sha256": "b126bfba045a822266c5fb390e08b9463ec1f5dfca370ce669f502f389032edf"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/refspec.asc",
+          "page": "10-git-internals/refspec",
+          "title": "The Refspec",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/refspec.asc",
+          "character_count": 5204,
+          "sha256": "24518e5d0194a8c5d8bcf9c5d41fe862156c0444a29148f3586bdddb4cff532a"
+        },
+        {
+          "source": "https://github.com/progit/progit2/blob/a013e3230a1207cfa5ae94d28ba7d2021063c337/book/10-git-internals/sections/transfer-protocols.asc",
+          "page": "10-git-internals/transfer-protocols",
+          "title": "Transfer Protocols",
+          "section": "10-git-internals",
+          "source_path": "book/10-git-internals/sections/transfer-protocols.asc",
+          "character_count": 11733,
+          "sha256": "e5ac09212e3d5b96303d1536f0ee6710996006ba5f9c7909e2c23ca4bbf778c8"
+        }
+      ],
+      "excluded_short_units": [
+        {
+          "source_path": "book/01-introduction/sections/command-line.asc",
+          "character_count": 978
+        },
+        {
+          "source_path": "book/01-introduction/sections/history.asc",
+          "character_count": 1373
+        }
+      ]
+    }
+  ]
+}

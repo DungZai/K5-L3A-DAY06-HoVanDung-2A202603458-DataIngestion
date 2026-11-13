@@ -1,0 +1,89 @@
+{
+  "A": {
+    "coherence": {
+      "mean": 1.5,
+      "total": 10
+    },
+    "metadata_test": {
+      "correct": 15,
+      "total": 15
+    },
+    "filter_compliance": {
+      "dev": {
+        "correct": 0,
+        "total": 3
+      },
+      "test": {
+        "correct": 1,
+        "total": 1
+      }
+    },
+    "grounding_test": {
+      "counts": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      },
+      "mean": 1.8,
+      "total": 5
+    }
+  },
+  "B": {
+    "coherence": {
+      "mean": 1.9,
+      "total": 10
+    },
+    "metadata_test": {
+      "correct": 15,
+      "total": 15
+    },
+    "filter_compliance": {
+      "dev": {
+        "correct": 1,
+        "total": 3
+      },
+      "test": {
+        "correct": 1,
+        "total": 1
+      }
+    },
+    "grounding_test": {
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2,
+      "total": 5
+    }
+  },
+  "C": {
+    "coherence": {
+      "mean": 1.9,
+      "total": 10
+    },
+    "metadata_test": {
+      "correct": 15,
+      "total": 15
+    },
+    "filter_compliance": {
+      "dev": {
+        "correct": 3,
+        "total": 3
+      },
+      "test": {
+        "correct": 1,
+        "total": 1
+      }
+    },
+    "grounding_test": {
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2,
+      "total": 5
+    }
+  }
+}

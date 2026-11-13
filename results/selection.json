@@ -1,0 +1,66 @@
+{
+  "selected_at": "2026-11-13T21:18:24+07:00",
+  "selected_strategy": "B",
+  "selection_policy": [
+    "maximize dev Evidence Hit@3",
+    "maximize dev Hit@1",
+    "if tied, prefer A, then B, then C"
+  ],
+  "dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": 6,
+      "evidence_hit_at_3": 9
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": 7,
+      "evidence_hit_at_3": 10
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": 7,
+      "evidence_hit_at_3": 10
+    }
+  ],
+  "fingerprint": {
+    "artifacts/strategies.json": "02291a93159aed08b661e430fb2248102ab48ac237ad775dedb67e63aa30cbdc",
+    "data/manifest.json": "457c1d0e5bf8decdd83bf22f936fed4000dd90d7795665304780d7f32db4a149",
+    "data/corpus.jsonl": "6bfce605e508d9fa4255290f7c63132ec7dc2b752b32fead738ad3eec5f10c9a",
+    "benchmark/questions.json": "8b8028d090dd686343e5f8bccbc4b7b3c416fa7acb8b08cdedace5864b764bff",
+    "benchmark/coherence_anchors.json": "0dfd45a299637d3b10dbdbd61fd60673a2fb05ab30d8e7aaa410d6af08be5c35",
+    "starter/requirements.txt": "137b64ddbfaf6081069dc665cd886038eb062c7d5b3385cf43b9f233d3cec813",
+    "starter/src/__init__.py": "86b6f304b218783f00e27c050a111049f5dc07fd98194c556deb0633d7c8980a",
+    "starter/src/chunking.py": "36bc082ae7445ff7c5deec8888fafa1534743bb8e5e0292ce5e6933cdfe7b1f3",
+    "starter/src/embeddings.py": "57c9308d5b9b1f305791982b5acfcd67a15b51fdee377556329b71cc2eb9b0bc",
+    "starter/src/evaluation.py": "6b87be31d721a6705345796418e1952b23c7081f68b6d8e5b569001cfa41d671",
+    "starter/src/ingestion.py": "06c9d188cc22d96db2078c6150d8a28f8e1300f506b539b5582ccae1cb35018b",
+    "starter/src/models.py": "2b15e967598e1973321079b24bfca82a0c3f85b6161d16885fd795f5f2af623e",
+    "starter/src/run.py": "bac93ee75df6571cd00269b5b89ddc69c3f7b80d0be185ccd11e3416c8eebc62",
+    "starter/src/store.py": "932ecaacd63edb78f5f5981ff9e980a61381f1152c8ef052ac860b467fd2d498"
+  },
+  "runtime": {
+    "python": "3.14.8",
+    "system": "Windows",
+    "provider": "ONNX Runtime CPU",
+    "model": "BAAI/bge-small-en-v1.5",
+    "model_revision": "aa8f8b060edb00e03bfdd08813a2949946c8ba55",
+    "dimensions": 384,
+    "model_repository": "Qdrant/bge-small-en-v1.5-onnx-Q",
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "max_tokens": 512,
+    "batch_size": 16,
+    "qdrant_client": "1.18.0",
+    "onnxruntime": "1.24.4",
+    "tokenizers": "0.22.2",
+    "numpy": "2.5.4",
+    "distance": "cosine",
+    "search": "exact"
+  }
+}

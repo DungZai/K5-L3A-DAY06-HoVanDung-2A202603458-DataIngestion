@@ -1,0 +1,214 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "If a file has the same contents in two consecutive Git snapshots, how does Git avoid storing a second copy?",
+    "expected_answer": "It reuses the stored identical file by reference.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "01-introduction/what-is-git",
+    "evidence_quote": "To be efficient, if files have not changed, Git doesn't store the file again, just a link to the previous identical file it has already stored."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "metadata",
+    "question": "I am configuring Git for the first time. When a system-wide setting and this repository's own setting disagree, which one wins?",
+    "expected_answer": "The setting in the repository's .git/config overrides the system-wide value.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "01-introduction/first-time-setup",
+    "evidence_quote": "Each level overrides values in the previous level, so values in `.git/config` trump those in `[path]/etc/gitconfig`.",
+    "filter": {
+      "section": "01-introduction"
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "condition",
+    "question": "In a centralized version-control system, what is left of the project history if the central database disk fails and no backups exist?",
+    "expected_answer": "The history is lost except for the individual snapshots users happen to have locally.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "01-introduction/about-version-control",
+    "evidence_quote": "If the hard disk the central database is on becomes corrupted, and proper backups haven't been kept, you lose absolutely everything -- the entire history of the project except whatever single snapshots people happen to have on their local machines."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "How can I choose a different local folder name when cloning a Git repository?",
+    "expected_answer": "Supply the desired local directory name as an extra argument to git clone after the repository URL.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "02-git-basics/getting-a-repository",
+    "evidence_quote": "If you want to clone the repository into a directory named something other than `libgit2`, you can specify the new directory name as an additional argument:"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "What character do I put at the beginning of a .gitignore pattern to negate it?",
+    "expected_answer": "An exclamation mark (!).",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "02-git-basics/recording-changes",
+    "evidence_quote": "You can negate a pattern by starting it with an exclamation point (`!`)."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In Git Basics, does downloading remote updates with git fetch immediately merge those updates into my current work?",
+    "expected_answer": "No. git fetch downloads the data to the local repository without merging it or modifying the current work.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "02-git-basics/remotes",
+    "evidence_quote": "It's important to note that the `git fetch` command only downloads the data to your local repository -- it doesn't automatically merge it with any of your work or modify what you're currently working on.",
+    "filter": {
+      "section": "02-git-basics"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "condition",
+    "question": "How do I push only annotated tags to a remote while leaving lightweight tags local?",
+    "expected_answer": "Use git push <remote> --follow-tags.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "02-git-basics/tagging",
+    "evidence_quote": "if you use `git push <remote> --follow-tags` only annotated tags will be pushed to the remote."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "condition",
+    "question": "When one branch tip is directly ahead of the current commit with no divergent work, what happens to the current pointer during the merge?",
+    "expected_answer": "Git moves the current branch pointer forward to the merged tip in a fast-forward.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "03-git-branching/basic-branching-and-merging",
+    "evidence_quote": "when you try to merge one commit with a commit that can be reached by following the first commit's history, Git simplifies things by moving the pointer forward because there is no divergent work to merge together"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "I created a branch using git branch and then kept working. Did the command also check out the new branch for me?",
+    "expected_answer": "No. git branch creates the branch and leaves the current branch checked out.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "03-git-branching/nutshell",
+    "evidence_quote": "The `git branch` command only _created_ a new branch -- it didn't switch to that branch."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "condition",
+    "question": "When does the book warn against rebasing commits that I have shared with teammates?",
+    "expected_answer": "Avoid rebasing commits that already exist outside the local repository and that other people may have based work on.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "03-git-branching/rebasing",
+    "evidence_quote": "Do not rebase commits that exist outside your repository and that people may have based work on."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "condition",
+    "question": "How can a Git stash include files that are explicitly ignored as well as untracked files?",
+    "expected_answer": "Use git stash --all or its short form -a.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "07-git-tools/stashing-cleaning",
+    "evidence_quote": "However, including untracked files in the stash will still not include explicitly _ignored_ files; to additionally include ignored files, use `--all` (or just `-a`)."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Git revision syntax, what does d921970^2 refer to?",
+    "expected_answer": "The second parent of commit d921970.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "07-git-tools/revision-selection",
+    "evidence_quote": "`d921970^2` means \"`the second parent of d921970.`\""
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In the Git Tools chapter, which git grep option shows the surrounding function or method for each matching string?",
+    "expected_answer": "Use -p or --show-function.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "07-git-tools/searching",
+    "evidence_quote": "If you're interested in the _context_ of a search string, you can display the enclosing method or function for each matching string with either of the `-p` or `--show-function` options:",
+    "filter": {
+      "section": "07-git-tools"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Will a fresh clone automatically install the client-side Git hooks from the original repository?",
+    "expected_answer": "No. Client-side hooks are not copied by git clone.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "08-customizing-git/hooks",
+    "evidence_quote": "It's important to note that client-side hooks are *not* copied when you clone a repository."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "condition",
+    "question": "If I set GIT_DIR but leave every work-tree override unset, where does Git treat the top of the working tree as being?",
+    "expected_answer": "The current working directory is treated as the root of the working tree.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "10-git-internals/environment",
+    "evidence_quote": "If `--git-dir` or `GIT_DIR` is specified but none of `--work-tree`, `GIT_WORK_TREE` or `core.worktree` is specified, the current working directory is regarded as the top level of your working tree."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "condition",
+    "question": "My last commit is already on the shared server. Does the book recommend amending it to add a missed change?",
+    "expected_answer": "No. It recommends amending only commits that are still local and have never been pushed.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "02-git-basics/undoing",
+    "evidence_quote": "Only amend commits that are still local and have not been pushed somewhere."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "metadata",
+    "question": "While working through Git Branching, I finished a feature and want to remove its branch from the shared server. Which git push option removes it?",
+    "expected_answer": "Use the --delete option with the remote and branch name, for example git push origin --delete serverfix.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "03-git-branching/remote-branches",
+    "evidence_quote": "You can delete a remote branch using the `--delete` option to `git push`.",
+    "filter": {
+      "section": "03-git-branching"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "What Git feature can remember my manual resolution of a merge conflict and reuse it when the same conflict happens again?",
+    "expected_answer": "git rerere, short for reuse recorded resolution.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "07-git-tools/rerere",
+    "evidence_quote": "The `git rerere` functionality is a bit of a hidden feature. The name stands for \"`reuse recorded resolution`\" and, as the name implies, it allows you to ask Git to remember how you've resolved a hunk conflict so that the next time it sees the same conflict, Git can resolve it for you automatically."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How can I keep a tracked directory in the project but omit it from an archive made with git archive?",
+    "expected_answer": "Set the export-ignore attribute for the path in the Git attributes file.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "08-customizing-git/attributes",
+    "evidence_quote": "If there is a subdirectory or file that you don't want to include in your archive file but that you do want checked into your project, you can determine those files via the `export-ignore` attribute."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "condition",
+    "question": "In the book's two-version packfile example, which version is stored in full and why?",
+    "expected_answer": "The second, newer version is stored in full to speed access to the version likely to be needed most. The original is stored as a delta.",
+    "gold_source_id": "pro-git-2e",
+    "gold_page": "10-git-internals/packfiles",
+    "evidence_quote": "What is also interesting is that the second version of the file is the one that is stored intact, whereas the original version is stored as a delta -- this is because you're most likely to need faster access to the most recent version of the file."
+  }
+]

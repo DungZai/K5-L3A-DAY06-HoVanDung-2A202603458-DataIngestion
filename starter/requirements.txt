@@ -1,4 +1,12 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Local benchmark runtime.
+numpy==2.5.4; python_version >= "3.12"
+numpy==2.4.4; python_version == "3.11"
+onnxruntime==1.24.4
+qdrant-client==1.18.0
+tokenizers==0.22.2
+pypdf==6.21.4
+tzdata==2026.6
+
+# Optional PostgreSQL starter infrastructure check.
 psycopg[binary]==3.3.8
-pypdf>=5,<7
-python-dotenv>=1,<2
+python-dotenv==1.2.4

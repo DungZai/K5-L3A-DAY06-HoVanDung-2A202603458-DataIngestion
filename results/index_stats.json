@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-11-13T21:18:24+07:00",
+  "python": "3.14.8",
+  "system": "Windows",
+  "provider": "ONNX Runtime CPU",
+  "model": "BAAI/bge-small-en-v1.5",
+  "model_revision": "aa8f8b060edb00e03bfdd08813a2949946c8ba55",
+  "dimensions": 384,
+  "model_repository": "Qdrant/bge-small-en-v1.5-onnx-Q",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "max_tokens": 512,
+  "batch_size": 16,
+  "qdrant_client": "1.18.0",
+  "onnxruntime": "1.24.4",
+  "tokenizers": "0.22.2",
+  "numpy": "2.5.4",
+  "distance": "cosine",
+  "search": "exact",
+  "indexes": {
+    "A": {
+      "count": 1115,
+      "characters": {
+        "min": 63,
+        "median": 500,
+        "max": 500,
+        "mean": 490.73,
+        "total": 547162
+      },
+      "tokens_with_special": {
+        "min": 17,
+        "median": 139,
+        "max": 332,
+        "mean": 144.3,
+        "total": 160894
+      },
+      "ingest_seconds": 100.4486,
+      "reload_seconds_reusing_vectors": 18.0642,
+      "count_after_same_version_reload": 1115,
+      "api_cost_usd": 0
+    },
+    "B": {
+      "count": 1405,
+      "characters": {
+        "min": 3,
+        "median": 373,
+        "max": 500,
+        "mean": 342.19,
+        "total": 480775
+      },
+      "tokens_with_special": {
+        "min": 5,
+        "median": 102,
+        "max": 305,
+        "mean": 100.95,
+        "total": 141835
+      },
+      "ingest_seconds": 170.3883,
+      "reload_seconds_reusing_vectors": 15.0015,
+      "count_after_same_version_reload": 1405,
+      "api_cost_usd": 0
+    }
+  }
+}

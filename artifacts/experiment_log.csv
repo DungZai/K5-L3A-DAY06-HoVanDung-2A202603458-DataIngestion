@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed character window,500,60,document_id/source/page/title/section/offsets,none,BAAI/bge-small-en-v1.5,Overlap can retain boundary evidence; arbitrary cuts can remove context.,6/15,9/15,2/5,4/5,Physical index A
+B,heading and paragraph with long-paragraph splitting,500,0,document_id/source/page/title/section/offsets,none,BAAI/bge-small-en-v1.5,Structural boundaries may preserve whole explanations but leave shorter fragments.,7/15,10/15,1/5,3/5,Physical index B; selected on dev
+C,heading and paragraph with long-paragraph splitting,500,0,document_id/source/page/title/section/offsets,section when provided,BAAI/bge-small-en-v1.5,Chapter scope may remove irrelevant hits for questions that supply it.,7/15,10/15,1/5,3/5,Shares physical index B

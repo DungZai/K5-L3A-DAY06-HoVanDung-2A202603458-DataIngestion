@@ -1,0 +1,28 @@
+{
+  "run_at": "2026-11-13T21:18:26+07:00",
+  "selected_strategy_from_dev": "B",
+  "selection_timestamp": "2026-11-13T21:18:24+07:00",
+  "test_metrics": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": 2,
+      "evidence_hit_at_3": 4
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 3
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 3
+    }
+  ]
+}
